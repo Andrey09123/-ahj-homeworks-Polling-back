@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "prestart": "npm install",
+    "dev": "npx nodemon",
     "start": "nodemon server.js"
+    
   },
   "keywords": [
     "RxJS"
