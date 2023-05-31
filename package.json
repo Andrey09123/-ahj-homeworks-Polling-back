@@ -4,8 +4,8 @@
   "description": "the first task about RxJS (polling)",
   "main": "server.js",
   "scripts": {
-    "prestart": "npm install",
     "dev": "npx nodemon",
+    "prestart": "npm install",    
     "start": "nodemon server.js"
     
   },
